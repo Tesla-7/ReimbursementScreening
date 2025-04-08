@@ -5,6 +5,49 @@
     justify-content: center; 
   }
 
+
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.file-upload-label {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6); /* Matches Material Design label color */
+    margin-bottom: 4px;
+}
+
+.file-upload-field {
+    width: 100%;
+}
+
+.file-upload-field input[readonly] {
+    cursor: default;
+}
+
+.file-upload-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.23); /* Matches Material Design input border */
+    border-radius: 4px;
+    padding: 8px;
+    height: 56px; /* Matches Material Design input height */
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.04); /* Matches Material Design input background */
+}
+
+.file-upload-display span {
+    color: rgba(0, 0, 0, 0.87); /* Matches Material Design input text color */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.file-upload-display button {
+    margin-left: 8px;
+}
 /* ::ng-deep .mat-datepicker-content{
     background-color: white !important;;
 } */
