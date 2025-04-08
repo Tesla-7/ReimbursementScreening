@@ -1,0 +1,33 @@
+
+<form class="verticalForm">
+    <h1>Reimbursement Form</h1>
+    <!-- Date Input -->
+    <mat-form-field appearance="fill">
+        <mat-label>Purchase Date</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <!-- Number Input -->
+    <mat-form-field appearance="fill">
+        <mat-label>Amount</mat-label>
+        <input matInput type="number" placeholder="">
+    </mat-form-field>
+
+    <!-- Text Description -->
+    <mat-form-field appearance="fill">
+        <mat-label>Expense Description</mat-label>
+        <textarea matInput placeholder=""></textarea>
+    </mat-form-field>
+
+    <!-- File Upload -->
+    <div>
+        <label for="fileUpload">Upload Receipt</label>
+        <input id="fileUpload" type="file" (change)="onFileSelected($event)">
+    </div>
+
+    <!-- Submit Button -->
+    <button mat-raised-button color="primary" type="submit">Submit</button>
+
+</form>
