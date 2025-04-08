@@ -81,6 +81,6 @@ namespace ReceiptApi.Controllers
     {
         public DateTime PurchaseDate { get; set; }
         public decimal PurchaseAmount { get; set; }
-        public string Description { get; set; }
+        public string Description { get; set; } = string.Empty;
     }
 }

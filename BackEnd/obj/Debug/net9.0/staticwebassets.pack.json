@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\receipts\\0a515e2f-306f-430b-8c6b-17da6c146451_campus-aerialLO-2.jpg"
     },
     {
+      "Id": "C:\\Users\\thelu\\Documents\\GitHub\\ReimbursementScreening\\BackEnd\\wwwroot\\receipts\\29a6aa1d-56a3-4e3f-9a64-8099463ba7ce_coconut.jpg",
+      "PackagePath": "staticwebassets\\receipts\\29a6aa1d-56a3-4e3f-9a64-8099463ba7ce_coconut.jpg"
+    },
+    {
       "Id": "C:\\Users\\thelu\\Documents\\GitHub\\ReimbursementScreening\\BackEnd\\wwwroot\\receipts\\80e8fa41-15e5-4afb-a976-2c10ae743616_campus-aerialLO-2.jpg",
       "PackagePath": "staticwebassets\\receipts\\80e8fa41-15e5-4afb-a976-2c10ae743616_campus-aerialLO-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thelu\\Documents\\GitHub\\ReimbursementScreening\\BackEnd\\wwwroot\\receipts\\b794a585-bbcf-4ddf-8e94-1d6db25f1ccf_coconut.jpg",
+      "PackagePath": "staticwebassets\\receipts\\b794a585-bbcf-4ddf-8e94-1d6db25f1ccf_coconut.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BackEnd.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

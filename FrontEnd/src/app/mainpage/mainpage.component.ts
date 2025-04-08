@@ -1,5 +1,7 @@
 import { Component, ChangeDetectorRef} from '@angular/core';
 import { MaterialModule } from '../material/material.module';
+import { ReceiptService } from '../receipt.service';
+
 
 @Component({
   selector: 'app-mainpage',
@@ -8,9 +10,14 @@ import { MaterialModule } from '../material/material.module';
   styleUrl: './mainpage.component.css'
 })
 export class MainpageComponent {
+  formData = {
+    purchaseDate: '',
+    purchaseAmount: null,
+    description: ''
+  };
   selectedFile: File | null = null;
 
-  constructor(private cdr: ChangeDetectorRef) {}
+  constructor(private cdr: ChangeDetectorRef, private receiptService: ReceiptService) {}
 
   onFileSelected(event: Event): void {
     const input = event.target as HTMLInputElement;
@@ -21,5 +28,48 @@ export class MainpageComponent {
     } else {
       console.log('No file selected');
     }
+  }
+  onSubmit(): void {
+    if (!this.formData.purchaseDate || !this.formData.purchaseAmount || !this.formData.description) {
+        alert('Please fill out all required fields.');
+        return;
+    }
+
+    if (!this.selectedFile) {
+        alert('Please upload a receipt file.');
+        return;
+    }
+    
+    this.receiptService
+    .submitReceipt(this.formData, this.selectedFile)
+    .subscribe({
+      next: (response) => {
+        console.log('Form submitted successfully:', response);
+        alert('Form submitted successfully!');
+      },
+      error: (error) => {
+        console.error('Error submitting form:', error);
+        alert('Error submitting form. Please try again.');
+      }
+    });
+    // this.receiptService
+    //     .submitReceipt(
+    //         {
+    //             purchaseDate: this.formData.purchaseDate,
+    //             purchaseAmount: this.formData.purchaseAmount,
+    //             description: this.formData.description
+    //         },
+    //         this.selectedFile
+    //     )
+    //     .subscribe({
+    //         next: (response) => {
+    //             console.log('Form submitted successfully:', response);
+    //             alert('Form submitted successfully!');
+    //         },
+    //         error: (error) => {
+    //             console.error('Error submitting form:', error);
+    //             alert('Error submitting form. Please try again.');
+    //         }
+    //     });
   }
 }
