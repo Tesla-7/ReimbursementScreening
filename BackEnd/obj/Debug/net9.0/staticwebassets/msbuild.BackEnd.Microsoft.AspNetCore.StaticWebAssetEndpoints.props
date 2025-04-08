@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/0456c505-5c00-4262-89a6-a08ce66bbe89_coconut.iwby3hysjm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\0456c505-5c00-4262-89a6-a08ce66bbe89_coconut.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iwby3hysjm"},{"Name":"integrity","Value":"sha256-wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc="},{"Name":"label","Value":"_content/BackEnd/receipts/0456c505-5c00-4262-89a6-a08ce66bbe89_coconut.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3236"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 22:31:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/0456c505-5c00-4262-89a6-a08ce66bbe89_coconut.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\0456c505-5c00-4262-89a6-a08ce66bbe89_coconut.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3236"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 22:31:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/0a515e2f-306f-430b-8c6b-17da6c146451_campus-aerialLO-2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\0a515e2f-306f-430b-8c6b-17da6c146451_campus-aerialLO-2.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -11,6 +23,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yrewp30s9a"},{"Name":"integrity","Value":"sha256-zre3Zb1YE0laR6viJVnncwDWVy00rv\u002BzEWO9bVxZQV8="},{"Name":"label","Value":"_content/BackEnd/receipts/0a515e2f-306f-430b-8c6b-17da6c146451_campus-aerialLO-2.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"677800"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zre3Zb1YE0laR6viJVnncwDWVy00rv\u002BzEWO9bVxZQV8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 20:39:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/1fae625a-9c29-4885-8469-3e878e9cd0ff_coconut.iwby3hysjm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\1fae625a-9c29-4885-8469-3e878e9cd0ff_coconut.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iwby3hysjm"},{"Name":"integrity","Value":"sha256-wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc="},{"Name":"label","Value":"_content/BackEnd/receipts/1fae625a-9c29-4885-8469-3e878e9cd0ff_coconut.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3236"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 23:10:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/1fae625a-9c29-4885-8469-3e878e9cd0ff_coconut.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\1fae625a-9c29-4885-8469-3e878e9cd0ff_coconut.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3236"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 23:10:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/29a6aa1d-56a3-4e3f-9a64-8099463ba7ce_coconut.iwby3hysjm.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\29a6aa1d-56a3-4e3f-9a64-8099463ba7ce_coconut.jpg'))</AssetFile>
@@ -35,6 +59,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yrewp30s9a"},{"Name":"integrity","Value":"sha256-zre3Zb1YE0laR6viJVnncwDWVy00rv\u002BzEWO9bVxZQV8="},{"Name":"label","Value":"_content/BackEnd/receipts/80e8fa41-15e5-4afb-a976-2c10ae743616_campus-aerialLO-2.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"677800"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zre3Zb1YE0laR6viJVnncwDWVy00rv\u002BzEWO9bVxZQV8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 20:42:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/9d90f232-5e0a-4046-9857-6f42483bb8dd_coconut.iwby3hysjm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\9d90f232-5e0a-4046-9857-6f42483bb8dd_coconut.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iwby3hysjm"},{"Name":"integrity","Value":"sha256-wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc="},{"Name":"label","Value":"_content/BackEnd/receipts/9d90f232-5e0a-4046-9857-6f42483bb8dd_coconut.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3236"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 23:15:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/9d90f232-5e0a-4046-9857-6f42483bb8dd_coconut.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\9d90f232-5e0a-4046-9857-6f42483bb8dd_coconut.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3236"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wldErcR5OURfiEfpaYsoorl4KGvMEY1fMJOapNKLqLc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 23:15:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BackEnd/receipts/b794a585-bbcf-4ddf-8e94-1d6db25f1ccf_coconut.iwby3hysjm.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\receipts\b794a585-bbcf-4ddf-8e94-1d6db25f1ccf_coconut.jpg'))</AssetFile>

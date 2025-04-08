@@ -1,59 +1,59 @@
 .verticalForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    width: 100%;
-  }
-  .verticalForm mat-form-field {
-    width: 100%; 
-    max-width: 300px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.verticalForm mat-form-field {
+	width: 100%;
+	max-width: 300px;
 }
 .verticalForm div {
-    width: 100%; 
-    max-width: 300px; 
+	width: 100%;
+	max-width: 300px;
 }
 
 .file-upload-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
 }
 
 .file-upload-label {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.6); 
-    margin-bottom: 4px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 4px;
 }
 
 .file-upload-field {
-    width: 100%;
-    max-width: 300px;
+	width: 100%;
+	max-width: 300px;
 }
 
 .file-upload-field input[readonly] {
-    cursor: default;
+	cursor: default;
 }
 
 .file-upload-display {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid rgba(0, 0, 0, 0.23); 
-    border-radius: 4px;
-    padding: 8px;
-    height: 56px; 
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.04); 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid rgba(0, 0, 0, 0.23);
+	border-radius: 4px;
+	padding: 8px;
+	height: 56px;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.04);
 }
 
 .file-upload-display span {
-    color: rgba(0, 0, 0, 0.87); 
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+	color: rgba(0, 0, 0, 0.87);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .file-upload-display button {
-    margin-left: 8px;
+	margin-left: 8px;
 }
