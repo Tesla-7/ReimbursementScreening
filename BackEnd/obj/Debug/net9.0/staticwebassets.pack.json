@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\thelu\\Documents\\GitHub\\ReimbursementScreening\\BackEnd\\wwwroot\\receipts\\0a515e2f-306f-430b-8c6b-17da6c146451_campus-aerialLO-2.jpg",
+      "PackagePath": "staticwebassets\\receipts\\0a515e2f-306f-430b-8c6b-17da6c146451_campus-aerialLO-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thelu\\Documents\\GitHub\\ReimbursementScreening\\BackEnd\\wwwroot\\receipts\\80e8fa41-15e5-4afb-a976-2c10ae743616_campus-aerialLO-2.jpg",
+      "PackagePath": "staticwebassets\\receipts\\80e8fa41-15e5-4afb-a976-2c10ae743616_campus-aerialLO-2.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BackEnd.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BackEnd.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.BackEnd.props",
+      "PackagePath": "build\\BackEnd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BackEnd.props",
+      "PackagePath": "buildMultiTargeting\\BackEnd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.BackEnd.props",
+      "PackagePath": "buildTransitive\\BackEnd.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
