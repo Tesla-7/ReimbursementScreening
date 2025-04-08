@@ -57,25 +57,6 @@ namespace ReceiptApi.Controllers
             // Return the created receipt with the ID
             return CreatedAtAction(nameof(PostReceipt), new { id = receipt.Id }, receipt);
         }
-        // POST: api/receipts
-        // [HttpPost]
-        // public async Task<ActionResult<Receipt>> PostReceipt([FromBody] Receipt receipt)
-        // {
-        //     // Validate the input receipt before saving
-        //     if (receipt == null)
-        //     {
-        //         return BadRequest("Receipt data is invalid.");
-        //     }
-
-        //     // Add the receipt to the database context
-        //     _context.Receipts.Add(receipt);
-
-        //     // Save changes asynchronously to the database
-        //     await _context.SaveChangesAsync();
-
-        //     // Return the created receipt with the ID
-        //     return CreatedAtAction(nameof(PostReceipt), new { id = receipt.Id }, receipt);
-        // }
     }
     public class ReceiptRequest
     {

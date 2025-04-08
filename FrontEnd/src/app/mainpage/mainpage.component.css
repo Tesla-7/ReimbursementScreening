@@ -22,7 +22,7 @@
 
 .file-upload-label {
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.6); /* Matches Material Design label color */
+    color: rgba(0, 0, 0, 0.6); 
     margin-bottom: 4px;
 }
 
@@ -39,16 +39,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid rgba(0, 0, 0, 0.23); /* Matches Material Design input border */
+    border: 1px solid rgba(0, 0, 0, 0.23); 
     border-radius: 4px;
     padding: 8px;
-    height: 56px; /* Matches Material Design input height */
+    height: 56px; 
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.04); /* Matches Material Design input background */
+    background-color: rgba(0, 0, 0, 0.04); 
 }
 
 .file-upload-display span {
-    color: rgba(0, 0, 0, 0.87); /* Matches Material Design input text color */
+    color: rgba(0, 0, 0, 0.87); 
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -57,6 +57,3 @@
 .file-upload-display button {
     margin-left: 8px;
 }
-/* ::ng-deep .mat-datepicker-content{
-    background-color: white !important;;
-} */

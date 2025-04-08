@@ -4,27 +4,27 @@
     <!-- Date Input -->
     <mat-form-field appearance="fill">
         <mat-label>Purchase Date</mat-label>
-        <input matInput [matDatepicker]="picker" [(ngModel)]="formData.purchaseDate" name="purchaseDate" required>
+        <input matInput [matDatepicker]="picker" placeholder="MM/DD/YYYY" [(ngModel)]="formData.purchaseDate" name="purchaseDate" required>
         <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
         <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <!-- Number Input -->
+    <!-- Amount Input -->
     <mat-form-field appearance="fill">
         <mat-label>Amount ($)</mat-label>
-        <input matInput type="number" [(ngModel)]="formData.purchaseAmount" name="purchaseAmount" required>
+        <input matInput type="number" placeholder="0.00" [(ngModel)]="formData.purchaseAmount" name="purchaseAmount" required>
     </mat-form-field>
 
-    <!-- Text Description -->
+    <!-- Text Description Input -->
     <mat-form-field appearance="fill">
         <mat-label>Expense Description</mat-label>
         <textarea matInput [(ngModel)]="formData.description" name="description" required></textarea>
     </mat-form-field>
 
-    <!-- File Upload -->
+    <!-- File Upload Input -->
     <div class="file-upload-container">
         <mat-form-field appearance="fill" class="file-upload-field">
-            <mat-label>Upload Receipt</mat-label>
+            <mat-label>Upload Receipt<span class="required-asterisk">*</span></mat-label>
             <input matInput [value]="selectedFile?.name || 'No file selected'" readonly>
             <button mat-button matSuffix type="button" (click)="fileInput.click()">Browse</button>
         </mat-form-field>
@@ -34,51 +34,3 @@
     <!-- Submit Button -->
     <button mat-raised-button color="primary" type="submit">Submit</button>
 </form>
-
-
-
-
-
-
-
-
-
-
-
-<!-- <form class="verticalForm" (ngSubmit)="onSubmit()" #reimbursementForm="ngForm">
-    <h1>Reimbursement Form</h1>
-
-    <mat-form-field appearance="fill">
-        <mat-label>Purchase Date</mat-label>
-        <input matInput [matDatepicker]="picker">
-        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-        <mat-datepicker #picker></mat-datepicker>
-    </mat-form-field>
-
-
-    <mat-form-field appearance="fill">
-        <mat-label>Amount ($)</mat-label>
-        <input matInput type="text" placeholder="0.00" name="amountInput">
-    </mat-form-field>
-
-
-    <mat-form-field appearance="fill">
-        <mat-label>Expense Description</mat-label>
-        <textarea matInput></textarea>
-    </mat-form-field>
-
-
-    <div class="file-upload-container">
-        <mat-form-field appearance="fill" class="file-upload-field">
-            <mat-label>Upload Receipt</mat-label>
-            <input matInput [value]="selectedFile?.name || 'No file selected'" readonly>
-            <button mat-button matSuffix (click)="fileInput.click()">Browse</button>
-        </mat-form-field>
-        <input #fileInput id="fileUploadInput" type="file" hidden (change)="onFileSelected($event)">
-    </div>
-
-
-  
-    <button mat-raised-button color="primary" type="submit">Submit</button>
-
-</form> -->

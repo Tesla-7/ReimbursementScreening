@@ -19,6 +19,7 @@ export class MainpageComponent {
 
   constructor(private cdr: ChangeDetectorRef, private receiptService: ReceiptService) {}
 
+  // Method to handle file selection
   onFileSelected(event: Event): void {
     const input = event.target as HTMLInputElement;
     if (input.files && input.files.length > 0) {
@@ -29,6 +30,8 @@ export class MainpageComponent {
       console.log('No file selected');
     }
   }
+
+  // Method to handle form submission
   onSubmit(): void {
     if (!this.formData.purchaseDate || !this.formData.purchaseAmount || !this.formData.description) {
         alert('Please fill out all required fields.');
@@ -39,7 +42,7 @@ export class MainpageComponent {
         alert('Please upload a receipt file.');
         return;
     }
-    
+
     this.receiptService
     .submitReceipt(this.formData, this.selectedFile)
     .subscribe({
@@ -52,24 +55,5 @@ export class MainpageComponent {
         alert('Error submitting form. Please try again.');
       }
     });
-    // this.receiptService
-    //     .submitReceipt(
-    //         {
-    //             purchaseDate: this.formData.purchaseDate,
-    //             purchaseAmount: this.formData.purchaseAmount,
-    //             description: this.formData.description
-    //         },
-    //         this.selectedFile
-    //     )
-    //     .subscribe({
-    //         next: (response) => {
-    //             console.log('Form submitted successfully:', response);
-    //             alert('Form submitted successfully!');
-    //         },
-    //         error: (error) => {
-    //             console.error('Error submitting form:', error);
-    //             alert('Error submitting form. Please try again.');
-    //         }
-    //     });
   }
 }
